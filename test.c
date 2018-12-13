@@ -10,5 +10,7 @@ int main(){
 	printf("%s\n",a[0]);
 	strcat(a[0],b[0]);
 	printf("%s\n",a[0]);
+	printf("denshi\n");
+	printf("EXIT\n");
 	return 0;
 }
