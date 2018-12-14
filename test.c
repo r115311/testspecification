@@ -7,6 +7,7 @@ void trash(){
 
 void hoge(){
 	printf("hoge関数\n");
+	trash();
 }
 
 void cafe(){
@@ -24,7 +25,6 @@ int main(){
 	strcat(a[0],b[0]);
 	printf("%s\n",a[0]);
 	printf("denshi\n");
-	trash();
 	hoge();
 	cafe();
 	printf("EXIT\n");
