@@ -1,11 +1,16 @@
 #include<stdio.h>
 #include<string.h>
+
 void trash(){
 	printf("trash関数\n");
 }
 
 void hoge(){
 	printf("hoge関数\n");
+}
+
+void cafe(){
+	printf("cafe\n");
 }
 
 int main(){
@@ -21,6 +26,7 @@ int main(){
 	printf("denshi\n");
 	trash();
 	hoge();
+	cafe();
 	printf("EXIT\n");
 	return 0;
 }
